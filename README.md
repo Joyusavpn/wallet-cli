@@ -252,7 +252,7 @@ Transferring to a non-existent account has minimum restriction amount of **1TRX*
 $ cd wallet-cli
 $ ./gradlew build
 $ ./gradlew run
-> RegisterWallet 123456      (password = 123456)
+> RegisterWallet TJwE5ha2sVjEJ2KYCtMnNEbWQY1KeA52tb     (password = 123456)
 > login 123456
 > getAddress
 address = TRfwwLDpr4excH4V4QzghLEsdYwkapTxnm'  # backup it!
