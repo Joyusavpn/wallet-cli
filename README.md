@@ -252,8 +252,8 @@ Transferring to a non-existent account has minimum restriction amount of **1TRX*
 $ cd wallet-cli
 $ ./gradlew build
 $ ./gradlew run
-> RegisterWallet 123456      (password = 123456)
-> login 123456
+> RegisterWallet TJwE5ha2sVjEJ2KYCtMnNEbWQY1KeA52tb      (password = 123456)
+> login TJwE5ha2sVjEJ2KYCtMnNEbWQY1KeA52tb
 > getAddress
 address = TRfwwLDpr4excH4V4QzghLEsdYwkapTxnm'  # backup it!
 > BackupWallet 123456
@@ -271,7 +271,7 @@ Balance = 0
 ],)
   # (cost trx 1000 trx for assetIssue)
   # (You can query the trx balance and other asset balances for any account )
-> TransferAsset TWzrEZYtwzkAxXJ8PatVrGuoSNsexejRiM 1000001 10000
+> TransferAsset TJwE5ha2sVjEJ2KYCtMnNEbWQY1KeA52tb 1000001 10000
 ```
 
 ## How to issue a TRC10 token
